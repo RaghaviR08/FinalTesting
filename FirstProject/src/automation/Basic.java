@@ -12,7 +12,8 @@ public class Basic {
 	public void driverMeth(){
 		System.setProperty("webdriver.chrome.driver", "E:\\Automation\\Driver\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://demoqa.com/text-box");
+		driver.navigate().to("https://demoqa.com/text-box");
+		
 	}
 
 }
